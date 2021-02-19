@@ -24,7 +24,7 @@ public class BrightIdeas {
 	By selectingMedia = By.xpath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/androidx.drawerlayout.widget.DrawerLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.view.ViewGroup/androidx.recyclerview.widget.RecyclerView/android.widget.FrameLayout[1]/com.google.android.material.card.MaterialCardView/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.widget.ImageView[1]");
 	By btnPostIdea = By.id("com.beremote.reteam:id/btn_post_celebration");
 	By btnClosePopUp = By.id("com.beremote.reteam:id/iv_close");
-
+	//test
 	public BrightIdeas (AppiumDriver<MobileElement> driver) {
 
 		this.driver = driver;
