@@ -25,6 +25,7 @@ public class BrightIdeas {
 	By btnPostIdea = By.id("com.beremote.reteam:id/btn_post_celebration");
 	By btnClosePopUp = By.id("com.beremote.reteam:id/iv_close");
 	//test
+	//test
 	public BrightIdeas (AppiumDriver<MobileElement> driver) {
 
 		this.driver = driver;
