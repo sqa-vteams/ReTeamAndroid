@@ -1,4 +1,4 @@
-package tests;
+/*package tests;
 
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
@@ -17,12 +17,11 @@ public class TestCases extends BaseClass {
 
 
 
-
 	@Test(priority=1)
 	@Parameters({ "emailField", "passwordField" })
 	public void TestSignIn( String emailField, String passwordField) 
 	{
-		SignIn objSignIn = new SignIn (driver);
+		SignIn objSignIn = new SignIn (this.driver);
 		objSignIn.emailField(emailField);
 		objSignIn.passwordField(passwordField);
 		objSignIn.signInClick();
@@ -117,6 +116,6 @@ public class TestCases extends BaseClass {
 
 }
 
-
+*/
 
 

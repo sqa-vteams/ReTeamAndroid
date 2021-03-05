@@ -15,10 +15,19 @@
 		<parameter name="textPostInput"		value="This is a Textual Test Post"></parameter>	
 		<parameter name="topicValue"		value="This is a Topic Test Post"></parameter>	
 		<classes>
-			<class name="tests.TestCases" />
+			<!-- <class name="tests.TestCases" /> -->
+			
+			<class name="testClasses.SignInTest" />
+			<class name="testClasses.WallOfFameTest" />
+			<class name="testClasses.BrightIdeaTest" />
+			<class name="testClasses.SlideshowTest" />
+			<class name="testClasses.TeamVideoTest" />
+			<class name="testClasses.TextualPostTest" />
+			<class name="testClasses.TopicOfTheDayTest" />
+			<class name="testClasses.SignOutTest" />
 
 
-			<methods>
+	<!-- 		<methods>
 				<include name="TestSignIn" />
 				<include name="TestWallOfFame" />
 				<include name="TestBrightIdea" />
@@ -27,8 +36,8 @@
 				<include name="TestTextualPost" />
 				<include name="TestTopicOfTheDay" />
 				<include name="TestSignOut" />
-			</methods>
-
+			</methods> 
+ -->
 
 
 		</classes>
